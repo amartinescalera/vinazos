@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: "file:///Users/amartin/projects/amartinescalera/bodega-cfg/"
+server:
+  port: 8888

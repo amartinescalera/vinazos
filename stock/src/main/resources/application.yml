@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: "dev"
+  application:
+    name: "stock"
+  cloud:
+    config:
+      uri: http://localhost:8888
+server:
+  port: 8003
+#number-of-items:
+#  wines: 10
+#  config:
+#    import: "optional:configserver:"

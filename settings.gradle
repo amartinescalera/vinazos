@@ -1,1 +1,6 @@
-rootProject.name = 'vinazos'
+rootProject.name = 'bodega'
+include 'stuff'
+include 'basket'
+include 'customer'
+include 'stock'
+include 'config-server'
